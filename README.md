@@ -23,6 +23,10 @@ Run the `deeplink_and_push_notification` app:
 
  `$ melos run run:deeplink_and_push_notification`
 
+Run the `responsive_ui` app:
+
+ `$ melos run run:responsive_ui`
+
 ## About
 
 ![Nimble](https://assets.nimblehq.co/logo/dark/logo-dark-text-160.png)
