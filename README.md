@@ -17,6 +17,12 @@ then you can start bootstrap with:
 
  `$ melos bootstrap`
 
+To add the `flutter run` command into `melos`, please follow the instruction [here](https://melos.invertase.dev/configuration/scripts#scriptsselect-package)
+
+Run the `deeplink_and_push_notification` app:
+
+ `$ melos run run:deeplink_and_push_notification`
+
 ## About
 
 ![Nimble](https://assets.nimblehq.co/logo/dark/logo-dark-text-160.png)
