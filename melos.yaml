@@ -2,3 +2,9 @@ name: flutter_showcases
 
 packages:
   - packages/**
+
+scripts:
+  run:deeplink_and_push_notification:
+    run: melos exec -- flutter run --flavor staging
+    select-package:
+      scope: 'deeplink_and_push_notification'
