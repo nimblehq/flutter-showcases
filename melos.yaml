@@ -8,3 +8,8 @@ scripts:
     run: melos exec -- flutter run --flavor staging
     select-package:
       scope: 'deeplink_and_push_notification'
+
+  run:responsive_ui:
+    run: melos exec -- flutter run
+    select-package:
+      scope: 'responsive_ui'
