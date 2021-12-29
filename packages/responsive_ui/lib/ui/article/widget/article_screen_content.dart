@@ -16,27 +16,6 @@ class ArticleScreenContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return Column(
-    //   children: [
-    //     Row(
-    //       children:
-    //     ),
-    //     AppBar(
-    //       leading: navigationIcon,
-    //       title: Row(
-    //         children: [
-    //           const Icon(Icons.android),
-    //           Text(
-    //             "Published in: ${post.publication?.name ?? ""}",
-    //             style: Theme.of(context).textTheme.headline3,
-    //           ),
-    //         ],
-    //       ),
-    //     ),
-    //     Expanded(child: PostContent(post: post)),
-    //     bottomBar,
-    //   ],
-    // );
     return Scaffold(
       appBar: AppBar(
         leading: navigationIcon,
